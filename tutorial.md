@@ -1,4 +1,4 @@
-# Introduction to Writing Tutorials in Cloud Shell
+# Introduction to CloudBees Core on Google Cloud Platform
 
 
 ## Let's get started!
@@ -12,7 +12,14 @@ This guide will show you how to build your own interactive tutorial (like this o
 Click the **Next** button to move to the next step.
 
 
-## What is Cloud Shell?
+## Install a VM
+
+```gcloud compute instances create gcelab2 --zone us-central1-c 
+```
+
+
+
+
 
 Before we jump in, let's briefly go over what Cloud Shell can do.
 
@@ -188,6 +195,3 @@ Likewise, once you've replaced `YOUR_REPO_URL_HERE` and `TUTORIAL_FILE.md` in th
 You’re all set!
 
 You can now have users launch your tutorial in Cloud Shell and have them start using your project with ease.
-
-
-
