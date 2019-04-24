@@ -3,13 +3,24 @@
 
 ## Let's get started!
 
-Get your users up and running quickly with your project by including an interactive tutorial.
-
-This guide will show you how to build your own interactive tutorial (like this one). It'll also walk you through generating a button that users can use to launch your finished tutorial.
 
 **Time to complete**: About 10 minutes
 
 Click the **Next** button to move to the next step.
+
+## Create or set a new project
+
+Select your project:
+```bash
+gcloud projects list
+```
+```bash
+gcloud config set project PROJECT_ID
+```
+or create a new project:
+```bash
+gcloud projects create PROJECT_ID
+```
 
 
 ## Install a VM
