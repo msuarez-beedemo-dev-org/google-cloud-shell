@@ -53,6 +53,9 @@ Clone
 ```bash
 git clone https://github.com/cloudbees/core-google-launcher.git
 ```
+```bash
+gcloud services enable containerregistry.googleapis.com
+```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
