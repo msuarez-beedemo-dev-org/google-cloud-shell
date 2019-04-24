@@ -14,7 +14,10 @@ Click the **Next** button to move to the next step.
 
 ## Install a VM
 
-```gcloud compute instances create gcelab2 --zone us-central1-c 
+Install a new VM for a Client Master
+
+```bash
+gcloud compute instances create gcelab2 --zone us-central1-c
 ```
 
 
