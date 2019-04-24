@@ -23,9 +23,19 @@ gcloud projects create PROJECT_ID
 ```
 
 
-## Install a VM
+## Install a VM - your next Client Master
 
-Install a new VM for a Client Master
+Get a list of services that you can enable in your project:
+```bash
+gcloud services list --available
+```
+
+Using the applicable compute.googleapis.com from the previous step, enable the service:
+
+```bash
+gcloud services enable compute.googleapis.com
+```
+
 
 ```bash
 gcloud compute instances create gcelab2 --zone us-central1-c
