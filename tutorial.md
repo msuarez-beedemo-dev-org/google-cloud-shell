@@ -41,28 +41,17 @@ gcloud services enable compute.googleapis.com
 gcloud compute instances create gcelab2 --zone us-central1-c
 ```
 
-
-
-
-
-Before we jump in, let's briefly go over what Cloud Shell can do.
-
-Cloud Shell is a personal hosted Virtual Machine which comes pre-loaded with developer tools for Google Cloud products. This interactive shell environment comes with a built-in code editor, persistent disk storage, and web preview functionality. To use command-line access alone, visit [console.cloud.google.com/cloudshell](https://console.cloud.google.com/cloudshell).
-
-You can direct your users to Cloud Shell to help them quickly get started with your project; giving them an opportunity to step through a use case and familiarize themselves with your project's functionality.
-
-Continue on to the next step to start setting up your tutorial.
-
-
-## In-context tutorials
-
-What you're looking at now is an in-context tutorial.
-
-The content is shown along with the Cloud Shell environment where you can carry out the tutorial steps. Having the tutorial and development environment open in the same place makes it easier for your users to start using your project through a straightforward single screen experience.
-
-Try running a command now:
 ```bash
-echo "Hello Cloud Shell"
+gcloud compute --project "core-msuarez" ssh --zone "us-central1-c" "gcelab2"
+```
+
+
+
+## Deploy
+Clone
+
+```bash
+git clone https://github.com/cloudbees/core-google-launcher.git
 ```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
